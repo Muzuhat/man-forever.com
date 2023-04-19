@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "google sans regular";
+}
+body{background-color: rgba(0, 0, 0, 0.829);
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    
+}
+header.red{
+    background-color: red;
+}
+.bu{
+   opacity: 0;
+}
+.i{
+    width: 70px;
+    height: 70px;
+    margin-top: -7px;
+    float: left;
+    margin-right: 2px;
+
+}
+
+.logo h3{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 13px;
+    float: left;
+    font-size: 27px;
+     font-weight: bolder;
+}
+
+
+.n ul{
+    display: flex;
+    
+}
+
+
+
+.n ul li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+.n ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.n ul li a.act{
+    color: black;
+    background-color: white;
+}
+@media only screen and (max-width:1110px){
+ .fixture{
+    margin-left: 400px;
+ }
+}
+@media only screen and (max-width:950px){
+header{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+}
+@media only screen and (max-width:800px){
+    .bar{
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .bu{
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0);
+        border:0px;
+    }
+    .line{
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+    }
+    
+    
+    .n{
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        left: 0;
+        
+        height: 300;
+        background-color: rgba(255, 0, 0, 0.897);
+        transition: 0.2s;
+       
+    }
+    .n ul{
+        display: none;
+        display: block;
+        width: fit-content;
+        align-items: center;
+        transition: 0.5s;
+        margin: -5px auto 10px auto;
+        
+    }
+    .n ul li a{
+        margin-bottom: 12px;
+    }
+}
+.vid{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.vid h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+.mng{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    
+}
+.kep1{
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px; 
+}
+.def{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.kep{
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+td img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+td h2{
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width:450px) {
+    .vid{
+        padding-top: 100px;
+        padding-left: 15px;
+    }
+    .kep1{
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 370px;
+        height: 100px; 
+    }
+    .mng{
+        background-color: white;
+        border-radius: 20px;
+        width: 370px;
+        height: 100px;
+        
+    }
+    .def{
+        background-color: white;
+        border-radius: 20px;
+        width: 370px;
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .kep{
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 370px;
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width:400px) {
+    .vid{
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+    .kep1{
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px; 
+    }
+    .mng{
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px;
+        
+    }
+    .def{
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .kep{
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .vid{
+        padding-top: 100px;
+        padding-left: 15px;
+    }
+    .kep1{
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px; 
+    }
+    .mng{
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px;
+        
+    }
+    .def{
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .kep{
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 20px;
+        width: 330px;
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+    }
+}

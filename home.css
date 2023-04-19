@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "google sans regular";
+    
+}
+body{
+    background-image: url(b12.jpg);
+    background-size: cover;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    
+}
+header.red{
+    background-color: red;
+}
+.bu{
+   opacity: 0;
+}
+.i{
+    width: 70px;
+    height: 70px;
+    margin-top: -7px;
+    float: left;
+    margin-right: 2px;
+
+}
+
+.logo h3{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 13px;
+    float: left;
+    font-size: 27px;
+     font-weight: bolder;
+}
+
+
+.n ul{
+    display: flex;
+    
+}
+
+
+
+.n ul li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+.n ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.n ul li a.act{
+    color: black;
+    background-color: white;
+}
+@media only screen and (max-width:1110px){
+ .fixture{
+    margin-left: 400px;
+ }
+}
+@media only screen and (max-width:950px){
+header{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+}
+@media only screen and (max-width:800px){
+    .bar{
+        display: block;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .bu{
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0);
+        border:0px;
+    }
+    .line{
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+    }
+    
+    
+    .n{
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        left: 0;
+        
+        
+        background-color: rgba(255, 0, 0, 0.897);
+        transition: 0.2s;
+       
+    }
+    .n ul{
+        display: none;
+        display: block;
+        width: fit-content;
+        align-items: center;
+        transition: 0.5s;
+        margin: -5px auto 10px auto;
+        
+    }
+    .n ul li a{
+        margin-bottom: 12px;
+    }
+}
+
+
+.cc{
+    padding-top: 180px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0
+}
+.error{
+    color: red;
+}
+.in,.in1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: white;
+    
+}
+.m1,.m11{ 
+    font-family: 'Allerta Stencil';
+    font-size: 40px;
+    margin-left: 110px;
+    color: white;
+    margin-top: 0;
+}
+.nb{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    float: left;
+}
+.nbb1{
+    background-color: white;
+    color:black;
+    border: 1px solid white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    float: left;
+}
+.nbb{
+   
+    background-color: red;
+    color:white;
+    border: 0px solid white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    float: left;
+}
+.nb:hover{
+    
+    background-color:red;
+    color:white;
+    border: 0px solid white;
+    
+}
+.rg{
+    transition: 1s;
+    border-radius: 15px;
+    box-shadow: 5px 7px rgb(204, 201, 201);
+    margin-top: -287px;
+    margin-left: 824px;
+    width: 350px;
+    height: 516px;
+    background-color: white;
+    padding:  30px ;
+    
+}
+.reg{
+        
+        border-radius: 15px;
+        box-shadow: 5px 7px rgb(204, 201, 201);
+        margin-top: -249px;
+        margin-left: 824px;
+        width: 410px;
+        height: 473px;
+        background-color: white;
+        padding: 30px;
+        display: none;
+    
+}
+.cn{
+    background-color: rgba(0, 0, 0, 0.89);
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top:150px ;
+    
+}
+.tu ,.tutt{
+    border-radius: 10px;
+    border: 1px solid rgb(228, 222, 222);
+    font-size: 18px;
+    padding-left: 10px;
+   width: 290px;
+   height: 40px;
+
+}
+
+.tut{
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    padding-left: 10px;
+   width: 290px;
+   height: 40px;
+   margin-top: 20px;
+}
+.tut::after{
+    margin-top: 0px;
+}
+.rg h2{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.ti{
+    border-radius: 15px;
+    box-shadow: 5px 7px rgb(204, 201, 201);
+    margin-top: -249px;
+    margin-left: 824px;
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    display: none;
+    
+    
+}
+.vvv{
+    width: 150px;
+    height: 150px;
+    
+    margin-left: 50px;
+}
+.ti h2{
+    margin-top: 30px;
+    font-size: 25px;
+    color: black;
+}
+.x{
+    margin-left: 223px;
+    margin-top: -260px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+}
+.x:hover{
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+@media only screen and (max-width:500px){
+    .in{    font-size: 28px;
+        margin-left: 4px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .m1{    font-size: 40px;
+        margin-left: 95px;
+    }
+    .nbb{
+        display: none;
+    }
+    .m11{
+        display: none;
+    }
+    .rg{
+        margin-top: -40px;
+    margin-left: 71px;
+    }
+    .in1{
+        display: none;
+    }
+    .nb{
+        margin-left: 108px;
+    }
+}
+@media only screen and (max-width:450px){
+    .m1{
+        margin-left: 65px;
+    }
+    .nb{
+        margin-left: 88px;
+    }
+    .rg{
+        margin-top: 53px;
+    margin-left: 30px;
+    }
+}
+@media only screen and (max-width:400px){
+    .m1{
+        margin-left: 45px;
+    }
+    .nb{
+        margin-left: 68px;
+    }
+    .rg{
+        margin-top: 33px;
+    margin-left: 15px;
+    }
+}
+
+
+@media only screen and (max-width:360px){
+    .rg{
+       
+        width: 330px;
+    }
+    .in{
+        font-size: 28px;
+        margin-left: 4px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .m1{
+        margin-left: 38px;
+    }
+    .nb{
+        margin-left: 54px;
+    }
+}

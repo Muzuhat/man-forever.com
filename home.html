@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAN FAN| Stats</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="main.png">
+</head>
+<body>
+    
+        <header>
+                
+            <div class="logo">
+            <a href="main.html"><img class="i" src="main.png" alt="">
+            <h3>MAN FAN</h3></a>
+        
+        </div>
+        
+        <button class="bu"><div class="bar" >
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            
+        </button> </div>
+            <nav class="n">
+            <ul>
+                <li><a href="home.html" class="act">home</a></li>
+                
+                <li><a href="epl.html" >epl</a></li>
+                <li><a href="stats.html">Stats</a></li>
+                <li><a href="squad.html">squad</a></li>
+            </ul>
+            </nav>
+            
+        </header>
+
+        <div class="cn">
+            <h1 class="in ">Introducing The New Platform <br> To Red Devil's Fan  it's </h1>
+            <h1 class="m1 ">MAN FOREVER</h1>
+            <button class="nb  ">Register</button>
+            <div class="ti">
+                <img class="vvv" src="vvv.png" alt="">
+                <H2>Now You Are a <br> Man Fan </H2>
+                <button class="x">X</button>
+            </div>
+            <div class="reg rg">
+                <form action="" id="sf">
+                    <label ><h2>Name</h2></label>
+                    <input name="n" class="tu" type="text" placeholder="Name">
+                    <label ><h2>Email</h2></label>
+                    <input name="e" class="tu" type="email" placeholder="Email">
+                    <label ><h2>Password</h2></label>
+                    <input name="p" class="tutt" type="password" placeholder="Password">
+                    <label ><h2>Confirm Password</h2></label>
+                    <input name="c" class="tu" type="password" placeholder="Confirm Password">
+                    <input class="tut" type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+            
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".bu").click(function(){
+            $(".n ").toggle()
+            })
+            $(".nb").on("click",function(){
+            $(".reg").removeClass("reg")
+            $(".nb").addClass("nbb")
+            $(".nb").removeClass("nb")
+            $(".in").addClass("in1")
+            $(".in").removeClass("in")
+            $(".m1").addClass("m11")
+            $(".m1").removeClass("m1")
+            
+            
+            } )
+            $("#sf").validate({
+            
+            rules:{
+                n:{
+                    required:true,
+                    minlength:4,
+                    maxlength:8
+                },
+                e:{
+                    
+                    required: true,
+                     email: true
+                },
+                p:{
+                    required: true,
+                    minlength:6,
+                    maxlength:10
+                },
+                c:{
+                    required:true,
+                    equalTo:".tutt"
+                }
+            },
+            
+
+            
+
+            
+        })
+        
+        
+        
+    })
+        
+            
+        
+
+        
+    </script>
+</body>
+</html>
